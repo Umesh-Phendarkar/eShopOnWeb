@@ -6,7 +6,7 @@ on: [push, workflow_dispatch]
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: "rg01"
-  LOCATION: "Central India"
+  LOCATION: "eastus"
   TEMPLATE-FILE: "infra/webapp.bicep"
   SUBSCRIPTION-ID: "042eb323-a0fd-470f-91e4-455fad3485f8"
   WEBAPP-NAME: "umesh-app100"
